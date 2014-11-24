@@ -10,12 +10,12 @@ group :test do
 end
 
 group :example do
-  gem 'activerecord', '~> 3.2.8'
-  gem 'mysql2', '~> 0.2.11'
+  gem 'activerecord'
+  gem 'mysql2'
 
   gem 'em-http-request'
 
-  gem 'thin', '~> 1.2.11'
+  gem 'thin'
 
   gem 'yajl-ruby', :require => 'yajl'
 
