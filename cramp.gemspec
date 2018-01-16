@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
 
   s.add_dependency('activesupport',   '~> 4.2.7.1')
-  s.add_dependency('rack',            '~> 1.5.2')
+  s.add_dependency('rack',            '~> 1.6.8')
   s.add_dependency('eventmachine',    '~> 1.0.3')
   s.add_dependency('faye-websocket',  '~> 0.7.1')
   s.add_dependency('thor',            '~> 0.19.0')
